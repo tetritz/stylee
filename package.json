@@ -1,0 +1,8 @@
+{
+  "name": "aquamarine",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {}
+}

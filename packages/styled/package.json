@@ -1,0 +1,58 @@
+{
+  "name": "@aquamarine/styled",
+  "version": "0.0.1",
+  "description": "Aquamarine is an easy and simple css framework.",
+  "scripts": {
+    "dev": "next dev -p 30001",
+    "build": "next build",
+    "start": "next start",
+    "git:push": "git add . && git commit -m 'Update codes' && git push"
+  },
+  "author": "Tetritz <tetrtiz.com@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tetritz/devtree/issues"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetritz/devtree.git",
+    "directory": "packages/react-pack"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.8",
+    "next": "10.0.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.13.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@devtree/react-pack": "^0.0.7",
+    "@types/node": "^14.14.14",
+    "@types/react": "^17.0.0",
+    "@types/styled-components": "^5.1.7",
+    "babel-plugin-styled-components": "^1.12.0",
+    "typescript": "^4.1.3"
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      [
+        "styled-components",
+        {
+          "ssr": true
+        }
+      ]
+    ]
+  },
+  "eslintConfig2": {
+    "extends": [
+      "./node_modules/@devtree/react-pack/eslint/next.js"
+    ]
+  },
+  "prettier": "@devtree/react-pack/prettier"
+}
