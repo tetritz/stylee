@@ -1,0 +1,24 @@
+{
+  "name": "stylee",
+  "version": "0.0.1",
+  "description": "Stylee is an easy and simple CSS framework.",
+  "keywords": [
+    "css",
+    "framework",
+    "style",
+    "stylee",
+    "tetritz"
+  ],
+  "homepage": "https://github.com/tetritz/stylee",
+  "bugs": {
+    "url": "https://github.com/tetritz/stylee/issues",
+    "email": "tetritz.com@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Tetritz <tetrtiz.com@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetritz/stylee.git"
+  }
+}
