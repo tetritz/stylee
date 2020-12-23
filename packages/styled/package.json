@@ -1,11 +1,8 @@
 {
-  "name": "@stylee/styled",
+  "name": "stylee",
   "version": "0.0.1",
   "description": "Stylee is an easy and simple CSS framework.",
   "scripts": {
-    "dev": "next dev -p 30001",
-    "build": "next build",
-    "start": "next start",
     "git:push": "git add . && git commit -m 'Update codes' && git push"
   },
   "author": "Tetritz <tetrtiz.com@gmail.com>",

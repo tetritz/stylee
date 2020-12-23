@@ -1,5 +1,5 @@
 {
-  "name": "aquamarine",
+  "name": "stylee",
   "private": true,
   "scripts": {
     "git:push": "git add . && git commit -m 'Update codes' && git push"
