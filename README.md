@@ -1,4 +1,4 @@
-# Aquamarine
-An easy and simple css framework.\
+# Stylee
+An easy and simple CSS framework.\
 \
 Made by Tetritz.

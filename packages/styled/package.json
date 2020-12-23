@@ -1,7 +1,7 @@
 {
-  "name": "@aquamarine/styled",
+  "name": "@stylee/styled",
   "version": "0.0.1",
-  "description": "Aquamarine is an easy and simple css framework.",
+  "description": "Stylee is an easy and simple CSS framework.",
   "scripts": {
     "dev": "next dev -p 30001",
     "build": "next build",
@@ -10,21 +10,21 @@
   },
   "author": "Tetritz <tetrtiz.com@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tetritz/aquamarine/issues"
+    "url": "https://github.com/tetritz/stylee/issues"
   },
   "keywords": [
-    "aquamarine",
     "css",
     "framework",
     "react",
     "style",
     "styled",
+    "stylee",
     "tetritz"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tetritz/aquamarine.git",
+    "url": "https://github.com/tetritz/stylee.git",
     "directory": "packages/styled"
   },
   "dependencies": {
