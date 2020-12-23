@@ -10,23 +10,27 @@
   },
   "author": "Tetritz <tetrtiz.com@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tetritz/devtree/issues"
+    "url": "https://github.com/tetritz/aquamarine/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "aquamarine",
+    "css",
+    "framework",
+    "react",
+    "style",
+    "styled",
+    "tetritz"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tetritz/devtree.git",
-    "directory": "packages/react-pack"
+    "url": "https://github.com/tetritz/aquamarine.git",
+    "directory": "packages/styled"
   },
   "dependencies": {
     "lodash": "^4.17.20",
-    "mongoose": "^5.11.8",
-    "next": "10.0.3",
     "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-hook-form": "^6.13.1",
-    "styled-components": "^5.2.1"
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
     "@devtree/react-pack": "^0.0.7",
@@ -35,6 +39,9 @@
     "@types/styled-components": "^5.1.7",
     "babel-plugin-styled-components": "^1.12.0",
     "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "styled-components": "^5.2.1"
   },
   "babel": {
     "presets": [
@@ -49,9 +56,9 @@
       ]
     ]
   },
-  "eslintConfig2": {
+  "eslintConfig": {
     "extends": [
-      "./node_modules/@devtree/react-pack/eslint/next.js"
+      "./node_modules/@devtree/react-pack/eslint/base.js"
     ]
   },
   "prettier": "@devtree/react-pack/prettier"
