@@ -1,0 +1,64 @@
+{
+  "name": "@stylee/core",
+  "version": "0.0.1-alpha.0",
+  "description": "Stylee is an easy and simple CSS framework.",
+  "keywords": [
+    "core",
+    "css",
+    "framework",
+    "style",
+    "stylee",
+    "tetritz"
+  ],
+  "homepage": "https://stylee.dev",
+  "bugs": {
+    "url": "https://github.com/tetritz/stylee/issues",
+    "email": "tetritz.com@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Lucas Choi <tetrtiz.com@gmail.com>",
+  "files": [],
+  "main": "dist/stylee.cjs.js",
+  "jsnext:main": "dist/stylee.esm.js",
+  "module": "dist/stylee.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetritz/stylee.git",
+    "directory": "packages/core"
+  },
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "next dev -p 30001",
+    "b": "yarn clean && rollup -c ./scripts/rollup.config.js",
+    "build": "rollup -c ./scripts/rollup.config.js",
+    "build:esm": "rollup -c",
+    "build:modern": "rollup -c",
+    "w": "rollup -c ./scripts/rollup.dev.config.js -w",
+    "start": "next start",
+    "git:push": "git add . && git commit -m 'Update codes' && git push"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@devtree/base-pack": "^0.0.2",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.38.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {},
+  "eslintConfig": {
+    "extends": [
+      "../../node_modules/@devtree/base-pack/eslint/base.js"
+    ]
+  },
+  "prettier": "@devtree/base-pack/prettier",
+  "sideEffects": false,
+  "types": "dist/index.d.ts",
+  "umdName": "Stylee"
+}

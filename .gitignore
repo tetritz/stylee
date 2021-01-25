@@ -35,8 +35,8 @@ pids
 package-lock.json
 
 # yarn files
-yarn.lock
 .yarn-integrity
+yarn.lock
 
 # yarn v2 files
 .pnp/

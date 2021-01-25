@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "declaration": true,
+    "declarationDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["*"],
+    },
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017"
+  },
+  "include": [
+    "**/*.d.ts",
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "out"
+  ]
+}
