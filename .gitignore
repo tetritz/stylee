@@ -18,9 +18,13 @@ yarn-error.log*
 .DS_Store
 *.pem
 
+# Output
+build
+dist
+out
+
 # Next.js build output
 .next
-out
 
 # Runtime data
 pids
